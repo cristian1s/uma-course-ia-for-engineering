@@ -1,0 +1,38 @@
+# Entornos, cachés y pruebas
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Credenciales locales: nunca publicar claves
+.env
+.env.*
+!.env.example
+.secrets/
+*.pem
+*.key
+
+# Registros reales y sus copias rotadas (la estructura sí se versiona)
+logs/*
+!logs/.gitkeep
+!logs/README.md
+
+# Artefactos reproducibles con src/train.py
+models/*
+!models/.gitkeep
+
+# Archivos temporales y paquetes locales
+*.tmp
+*.bak
+*.zip
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

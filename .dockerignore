@@ -1,0 +1,13 @@
+.git
+.venv
+__pycache__
+.pytest_cache
+logs
+revision_documentos
+.secrets
+.env
+.env.*
+*.pem
+*.key
+*.zip
+evidencias
